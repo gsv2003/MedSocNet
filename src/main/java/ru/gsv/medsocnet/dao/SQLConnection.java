@@ -9,7 +9,7 @@ import java.sql.SQLException;
  */
 public class SQLConnection {
 
-        private static final String URL = "jdbc:mysql://localhost:3306/medsocnet?useUnicode=true&serverTimezone=UTC";
+        private static final String URL = "jdbc:mysql://localhost:3306/medsocnet?useUnicode=true&serverTimezone=UTC&autoReconnect=true&useSSL=false";
         private static final String USER = "root";
         private static final String PASSWORD = "12345";
 
